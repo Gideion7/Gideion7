@@ -3,7 +3,7 @@
 <h2>👨‍💻 Cybersecurity Projects:</h2>
 
 - <b>WebPage Creation and Security Practice </b>
-  - [PHP rgistration, login and CRUD Operation](https://github.com/BYU-ITC-210-Archive/lab-3b-Gideion7/tree/master/Lab%203-write%20up)
+  - [PHP rgistration, login and CRUD Operation](https://github.com/Gideion7/ProjGid.git)
   - [.NET Core MVC](https://github.com/BYU-ITC-210-Archive/lab-4b-Gideion7/tree/master/Lab%204%20Write-up)
   - [Python and Unit Testing | Server Hardening and Regex](https://github.com/BYU-ITC-210-Archive/lab-5a-Gideion7/blob/master/Lab%205%20write-up/README.md)
   
