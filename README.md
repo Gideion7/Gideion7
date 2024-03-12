@@ -5,7 +5,7 @@
 - <b>WebPage Creation and Security Practice </b>
   - [PHP rgistration, login and CRUD Operation](https://github.com/Gideion7/ProjGid/tree/3b)
   - [.NET Core MVC](https://github.com/Gideion7/ProjGid/tree/4b)
-  - [Python and Unit Testing | Server Hardening and Regex](https://github.com/BYU-ITC-210-Archive/lab-5a-Gideion7/blob/master/Lab%205%20write-up/README.md)
+  - [Python and Unit Testing | Server Hardening and Regex](https://github.com/Gideion7/ProjGid/tree/5b)
   
 
 
