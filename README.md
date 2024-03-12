@@ -8,7 +8,6 @@
   - [Python and Unit Testing | Server Hardening and Regex](https://github.com/BYU-ITC-210-Archive/lab-5a-Gideion7/blob/master/Lab%205%20write-up/README.md)
   
 
-<h2> 🤳 Connect with me:</h2>
 
 
 <!--
