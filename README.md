@@ -1,4 +1,4 @@
-<h1>Hi, I'm Gideion! <br/><a href="https://github.com/joshmadakor1">Programmer</a>, <a href="https://www.linkedin.com/in/joshmadakor/">Cybersecurity Professional</a>
+<h1>Hi, I'm Gideion! <br/><a href="https://github.com/joshmadakor1">Cybersecurity Professional</a>, <a href="https://www.linkedin.com/in/joshmadakor/">Programmer</a>
 
 <h2>👨‍💻 Cybersecurity Projects:</h2>
 
