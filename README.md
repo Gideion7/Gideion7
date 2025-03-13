@@ -2,6 +2,11 @@
 
 <h2>👨‍💻 Cybersecurity Projects:</h2>
 
+- <b>vulnerability scanner and Endpoint </b>
+
+- <b>WebPage Creation and Security Practice </b>
+
+
 - <b>WebPage Creation and Security Practice </b>
   - [PHP rgistration, login and CRUD Operation](https://github.com/Gideion7/ProjGid/tree/3b)
   - [.NET Core MVC](https://github.com/Gideion7/ProjGid/tree/4b)
