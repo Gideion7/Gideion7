@@ -2,7 +2,7 @@
 
 <h2>👨‍💻 Cybersecurity Projects:</h2>
 
-- <b>vulnerability scanner and Endpoint </b>
+- <b>Vulnerability Scanner and Endpoint </b>
    - 
 
 - <b>Linux Security </b>
