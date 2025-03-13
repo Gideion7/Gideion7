@@ -1,4 +1,4 @@
-<h1>Hi, I'm Gideion! <br/>Cybersecurity Professional</a>,Programmer</a>
+<h1>Hi, I'm Gideion! <br/>Cybersecurity Professional</a>
 
 <h2>👨‍💻 Cybersecurity Projects:</h2>
 
