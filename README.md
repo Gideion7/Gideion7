@@ -3,7 +3,7 @@
 <h2>👨‍💻 Cybersecurity Projects:</h2>
 
 - <b>Vulnerability Scanner and Endpoint </b>
-   - [IT&C 366 Wazuh Lab_v3.pdf](https://github.com/Gideion7/Gideion7/blob/f5c0e8e888426b6a4fee8c734224a7c3409e92a8/IT%26C%20366%20Wazuh%20Lab_v3.pdf)
+   - [Wazuh Lab_v3.pdf](https://github.com/Gideion7/Gideion7/blob/f5c0e8e888426b6a4fee8c734224a7c3409e92a8/IT%26C%20366%20Wazuh%20Lab_v3.pdf)
 
 - <b>Linux Security </b>
 
