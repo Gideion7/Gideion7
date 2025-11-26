@@ -77,4 +77,4 @@ Importance of SIEM/EDR Integration
 The combination of EDR and SIEM (as demonstrated by Wazuh) is crucial because EDR provides granular, endpoint-specific insights, while the SIEM aggregates this data with logs from other sources (like firewalls and IDS) to provide a comprehensive and contextualized view of the organization's entire security posture. This is the foundation of modern threat hunting and compliance reporting.
 
 ## 🔗 Link to Complete Lab Document and Screenshots
-  [Wazuh_Lab](wazuh_lab)
+  [Wazuh_Lab](wazuh_lab.pdf)
