@@ -30,11 +30,34 @@ The Domain Controller was secured through the following sequence:
    - Initial Findings: The scan identified a large number of vulnerabilities (e.g., 57 vulnerabilities in the initial scan screenshot ), confirming the default insecure state of the Domain Controller.
 
 2. Baseline Security Measures & Mitigation
-   - Windows Updates: Performed crucial Windows Updates on the DC to patch known security vulnerabilities, addressing immediate, high-risk flaws.
-   - Password Policy via GPO: A strong password policy was enforced using the Default Domain Policy Group Policy Object (GPO).
-   - Minimum Password Length: Set to 14 characters.
-   - Password History: Set to 24 passwords remembered.
-   - Complexity Requirements: Set to Enabled
-   - User Account Creation and PoLP:
+   1. Windows Updates: Performed crucial Windows Updates on the DC to patch known security vulnerabilities, addressing immediate, high-risk flaws.
+   2. Password Policy via GPO: A strong password policy was enforced using the Default Domain Policy Group Policy Object (GPO).
+   3. Minimum Password Length: Set to 14 characters.
+   4. Password History: Set to 24 passwords remembered.
+   5. Complexity Requirements: Set to Enabled
+   6. User Account Creation and PoLP:
       - Created a standard, non-administrative Active Directory user (Joe Smith).
       - Access Control: Restricted the user's logon hours to a specific window (Sunday through Friday from 6:00 AM to 8:00 PM) to limit the attack surface (access control)
+   7. Administrative Password Change: The default insecure administrator password (Password#2!) was changed to a secure password.
+   8. Restricting Remote Access (RDP/PowerShell):
+       - RDP Restriction: Used a GPO (Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > User Rights Assignment > Allow log on through Remote Desktop Services) to limit RDP access exclusively to the Administrators group.
+       - PowerShell Remoting Restriction: Used the Set-PSSessionConfiguration PowerShell cmdlet to restrict who can use PowerShell Remoting, enforcing a Technical/Logical Control.
+3. Post-Hardening Vulnerability Scan
+   - The "Basic Network Scan" was run a second time.
+   - Result: The vulnerability count was significantly reduced (e.g., 57 vulnerabilities to 17 vulnerabilities ), validating the effectiveness of the applied security controls and hardening steps
+
+## 🧠 Key Takeaways
+Role-Based Access Control (RBAC) and Least Privilege (PoLP)
+RBAC is a mechanism that restricts system access based on an individual's defined role. This directly enforces the Principle of Least Privilege (PoLP), which states that users must have the absolute minimum level of access necessary to complete their job functions. By limiting non-administrative users (like Joe Smith) to only what is needed, the risk of data compromise or accidental system configuration changes is minimized.
+
+
+Importance of Regular Updates (Q5.1)
+Regular updates are critical because they fix security holes (vulnerabilities) that hackers could exploit to gain unauthorized access. For new OS installs, this is especially important as the base installation often lacks the latest patches, making it immediately susceptible to known, easily exploitable weaknesses.
+
+The Windows Registry and Security (Q4.c.i)
+The Windows Registry is a central database storing settings for the operating system and programs. Security-related settings it controls include user permissions and startup programs. A hacker may compromise the HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run key to achieve persistence, ensuring their malicious program runs every time the computer starts, staying active even after a reboot
+
+## Link to Complete Lab Document and Screenshots
+> **note:** The doc also includes a try hack me challenge that I did before starting the lab
+
+[Nessus and GPO](nessus_lab)
