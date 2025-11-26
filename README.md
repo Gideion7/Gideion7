@@ -5,7 +5,6 @@
 - <b>Vulnerability Scanner and Endpoint </b>
    - [Wazuh Lab](https://github.com/Gideion7/Gideion7/blob/f5c0e8e888426b6a4fee8c734224a7c3409e92a8/IT%26C%20366%20Wazuh%20Lab_v3.pdf)
    - [Nessus scanner](https://github.com/Gideion7/Gideion7/blob/16eb46447b942923ed504e1cfd6d6fdf74629416/ITC_366_W25_Lab_3_SecureConfiguration.pdf)
-   - [Metasploitable and OpenVAS scan](https://github.com/Gideion7/Gideion7/blob/fd36e2fdc160c3273323f3457067cdd6abab2aa0/Lab-6-writeup.pdf)
 
 - <b>Firewall & VPN
      
