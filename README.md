@@ -4,7 +4,7 @@
 
 - <b>Vulnerability Scanner and Endpoint </b>
    - [Wazuh Lab](docs/wazuh/Wreadme.md)
-   - [Nessus scanner](docs/Nreadme.md)
+   - [Nessus scanner](docs/Nessus/Nreadme.md)
 
 - <b>Network Security
    - [Firewall & VPN](docs/firewall/freadme.md)
