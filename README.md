@@ -6,12 +6,12 @@
    - [Wazuh Lab](docs/wazuh/Wreadme.md)
    - [Nessus scanner](docs/Nreadme.md)
 
-- <b>Firewall & VPN
-     
+- <b>Network Security
+   - [Firewall & VPN](docs/firewall/freadme.md)
 - <b>Linux Security </b>
 
 
-- <b>Cloud Projects </b>
+- <b>Cloud </b>
 
   
 
