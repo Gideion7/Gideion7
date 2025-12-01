@@ -60,4 +60,4 @@ The Windows Registry is a central database storing settings for the operating sy
 ## Link to Complete Lab Document and Screenshots
 > **note:** The doc also includes a try hack me challenge that I did before starting the lab
 
-[Nessus and GPO](nessus_lab.pdf)
+[Nessus and GPO](nessus.pdf)
